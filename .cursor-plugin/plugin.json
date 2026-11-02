@@ -14,5 +14,7 @@
     "language-learning",
     "education",
     "mcp"
-  ]
+  ],
+  "logo": "assets/icon.png",
+  "mcpServers": "./.mcp.json"
 }

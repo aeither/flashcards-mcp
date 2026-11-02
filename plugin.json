@@ -32,7 +32,7 @@
           "Share decks on request"
         ],
         "websiteURL": "https://flashcard.fulinlabs.com/",
-        "supportURL": "https://flashcard.fulinlabs.com/privacy#contact",
+        "supportURL": "https://github.com/aeither/flashcards-mcp/issues",
         "privacyPolicyURL": "https://flashcard.fulinlabs.com/privacy",
         "termsOfServiceURL": "https://flashcard.fulinlabs.com/terms",
         "defaultPrompt": [
