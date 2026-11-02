@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flashcards": {
+      "type": "http",
+      "url": "https://flashcard.fulinlabs.com/api/mcp"
+    }
+  }
+}

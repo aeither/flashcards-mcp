@@ -1,0 +1,18 @@
+{
+  "name": "flashcards",
+  "version": "1.1.0",
+  "description": "Learn vocabulary from your daily life with flashcards, examples and pronunciation.",
+  "author": {
+    "name": "Giovanni Fu Lin",
+    "email": "giovannifulin@gmail.com"
+  },
+  "homepage": "https://flashcard.fulinlabs.com/",
+  "repository": "https://github.com/aeither/flashcards-mcp",
+  "keywords": [
+    "flashcards",
+    "vocabulary",
+    "language-learning",
+    "education",
+    "mcp"
+  ]
+}

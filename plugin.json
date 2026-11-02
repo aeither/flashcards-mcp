@@ -1,0 +1,48 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "flashcard-mcp",
+  "version": "1.1.0",
+  "description": "Learn the words that matter in your daily life. Turn conversations, reading, travel and lessons into personal vocabulary decks.",
+  "author": {
+    "name": "Giovanni Fu Lin",
+    "email": "giovannifulin@gmail.com",
+    "url": "https://fulinlabs.com/"
+  },
+  "homepage": "https://flashcard.fulinlabs.com/",
+  "repository": "https://github.com/aeither/flashcards-mcp",
+  "keywords": [
+    "flashcards",
+    "vocabulary",
+    "language learning",
+    "spaced repetition",
+    "pronunciation",
+    "education"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Flashcards",
+        "shortDescription": "Learn words from your life",
+        "longDescription": "Learn the words that matter in your daily life. Create vocabulary flashcards from your conversations, lessons, reading, work and travel. Study reversible cards with examples and pronunciation in compatible chat clients, or use the structured deck in any MCP client. When you explicitly ask to save or share, create a website study link. The free browser app provides spaced repetition and stores study progress locally. No account or API key is required. Audio supports Chinese, English, French, German, Italian, Japanese, Korean, Spanish and Vietnamese. A shared link can be read by anyone who has it; there is no automatic account sync.",
+        "developerName": "Giovanni Fu Lin",
+        "category": "Education",
+        "capabilities": [
+          "Create personal vocabulary decks",
+          "Study cards with examples and pronunciation",
+          "Share decks on request"
+        ],
+        "websiteURL": "https://flashcard.fulinlabs.com/",
+        "supportURL": "https://flashcard.fulinlabs.com/privacy#contact",
+        "privacyPolicyURL": "https://flashcard.fulinlabs.com/privacy",
+        "termsOfServiceURL": "https://flashcard.fulinlabs.com/terms",
+        "defaultPrompt": [
+          "Make 10 Vietnamese flashcards for ordering my lunch, with English translations.",
+          "Turn these words from my lesson into a study deck: bonjour, merci, demain.",
+          "Create 10 Japanese travel flashcards with kana readings and English translations."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  }
+}
