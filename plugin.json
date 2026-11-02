@@ -25,7 +25,7 @@
         "shortDescription": "Learn words from your life",
         "longDescription": "Learn the words that matter in your daily life. Create vocabulary flashcards from your conversations, lessons, reading, work and travel. Study reversible cards with examples and pronunciation in compatible chat clients, or use the structured deck in any MCP client. When you explicitly ask to save or share, create a website study link. The free browser app provides spaced repetition and stores study progress locally. No account or API key is required. Audio supports Chinese, English, French, German, Italian, Japanese, Korean, Spanish and Vietnamese. A shared link can be read by anyone who has it; there is no automatic account sync.",
         "developerName": "Giovanni Fu Lin",
-        "category": "Education",
+        "category": "Education & Research",
         "capabilities": [
           "Create personal vocabulary decks",
           "Study cards with examples and pronunciation",
@@ -96,6 +96,9 @@
             }
           ]
         }
+      },
+      "publication": {
+        "release_notes": "Use the canonical Flashcards MCP endpoint, improve text-only client support, correct the Chinese card output schema, and enable website sharing on explicit request."
       }
     }
   }
