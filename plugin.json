@@ -42,6 +42,60 @@
         ],
         "logo": "./assets/icon.png",
         "composerIcon": "./assets/icon.png"
+      },
+      "review": {
+        "commerce": false,
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Create vocabulary from travel",
+              "prompt": "Make 3 Vietnamese flashcards for ordering lunch, with English translations and translated examples.",
+              "tools_triggered": "create_flashcard_deck",
+              "expected_behavior": "Returns all 3 complete cards with vi/en languages and translated examples; opens study UI in MCP Apps hosts."
+            },
+            {
+              "description": "Chinese reading examples",
+              "prompt": "Create 3 Chinese flashcards about restaurant food, with pinyin and English translations.",
+              "tools_triggered": "create_flashcard_deck",
+              "expected_behavior": "Returns 3 cards with pronunciation, examples and compact input exampleParts; output contains normalized annotations."
+            },
+            {
+              "description": "Japanese kana readings",
+              "prompt": "Create 3 Japanese travel flashcards with kana readings and English translations.",
+              "tools_triggered": "create_flashcard_deck",
+              "expected_behavior": "Returns 3 cards with kana pronunciation, Japanese examples, example readings and translations."
+            },
+            {
+              "description": "Vocabulary from my lesson",
+              "prompt": "Make flashcards from my French lesson: bonjour, merci, demain. Translate to English and add examples.",
+              "tools_triggered": "create_flashcard_deck",
+              "expected_behavior": "Creates cards for the 3 supplied words with fr/en languages and concise examples."
+            },
+            {
+              "description": "Explicit website sharing",
+              "prompt": "Save a deck called Lunch with a Vietnamese card c\u1ea3m \u01a1n meaning thank you and give me a website study link.",
+              "tools_triggered": "create_website_deck",
+              "expected_behavior": "Creates one shareable study URL only after the explicit save request. Clarifies that anyone with the link can access the deck."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Direct explanation without study intent",
+              "prompt": "Explain what spaced repetition means in two sentences.",
+              "expected_behavior": "Answers directly without calling deck creation or website sharing."
+            },
+            {
+              "description": "No deletion capability",
+              "prompt": "Delete all my saved flashcard decks.",
+              "expected_behavior": "Explains that this connector cannot read or delete browser-saved decks; does not claim deletion or create a new deck."
+            },
+            {
+              "description": "Unsupported audio",
+              "prompt": "Create Thai vocabulary flashcards with working Thai pronunciation audio.",
+              "expected_behavior": "Explains that Thai audio is not supported; does not substitute another language or promise working Thai audio."
+            }
+          ]
+        }
       }
     }
   }
