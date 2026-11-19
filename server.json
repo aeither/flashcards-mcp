@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.aeither/flashcards",
-  "title": "Flashcards by Fulin Labs",
-  "description": "Learn vocabulary from daily life with flashcards, examples, pronunciation and shareable study links.",
-  "version": "6.7.0",
-  "websiteUrl": "https://flashcard.fulinlabs.com/",
+  "title": "VocaDeck by Fulin Labs",
+  "description": "Free vocabulary flashcards with pronunciation and sharing. No account or API key required.",
+  "version": "6.7.1",
+  "websiteUrl": "https://vocadeck.fulinlabs.com/",
   "repository": {
     "url": "https://github.com/aeither/flashcards-mcp",
     "source": "github"
@@ -12,12 +12,12 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://flashcard.fulinlabs.com/api/mcp"
+      "url": "https://vocadeck.fulinlabs.com/api/mcp"
     }
   ],
   "icons": [
     {
-      "src": "https://flashcard.fulinlabs.com/android-chrome-512x512.png",
+      "src": "https://vocadeck.fulinlabs.com/android-chrome-512x512.png",
       "mimeType": "image/png",
       "sizes": [
         "512x512"

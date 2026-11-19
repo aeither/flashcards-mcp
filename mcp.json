@@ -3,7 +3,7 @@
   "mcpServers": {
     "flashcards": {
       "type": "streamable-http",
-      "url": "https://flashcard.fulinlabs.com/api/mcp",
+      "url": "https://vocadeck.fulinlabs.com/api/mcp",
       "extensions": {
         "com.openai": {
           "auth": {

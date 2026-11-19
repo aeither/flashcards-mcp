@@ -1,16 +1,18 @@
-# Flashcards by Fulin Labs
+# VocaDeck by Fulin Labs
 
 **Learn the words that matter in your daily life.**
 
 Create personal vocabulary decks from your conversations, lessons, reading, work and travel. Study with examples, pronunciation and reversible cards in MCP Apps clients, or receive the complete deck as text and structured data in other clients.
 
-- Website: https://flashcard.fulinlabs.com/
-- Remote MCP: **https://flashcard.fulinlabs.com/api/mcp**
+- Website: https://vocadeck.fulinlabs.com/
+- Remote MCP: **https://vocadeck.fulinlabs.com/api/mcp**
 - Transport: Streamable HTTP (JSON responses); no account or API key required.
 - Publisher: Giovanni Fu Lin, Fulin Labs — https://fulinlabs.com/
 - Contact: giovannifulin@gmail.com
-- Privacy: https://flashcard.fulinlabs.com/privacy
-- Terms: https://flashcard.fulinlabs.com/terms
+- Privacy: https://vocadeck.fulinlabs.com/privacy
+- Terms: https://vocadeck.fulinlabs.com/terms
+
+Existing connections to `https://flashcard.fulinlabs.com/api/mcp` continue to work.
 
 ## Connect
 
@@ -20,13 +22,13 @@ Claude, Cursor, Grok and other remote MCP clients: add the remote MCP URL above.
 {
   "mcpServers": {
     "flashcards": {
-      "url": "https://flashcard.fulinlabs.com/api/mcp"
+      "url": "https://vocadeck.fulinlabs.com/api/mcp"
     }
   }
 }
 ```
 
-Claude Code: `claude mcp add --transport http flashcards https://flashcard.fulinlabs.com/api/mcp`
+Claude Code: `claude mcp add --transport http flashcards https://vocadeck.fulinlabs.com/api/mcp`
 
 Cursor: use the included `.mcp.json` configuration. The `.cursor-plugin` directory describes the marketplace package.
 
